@@ -104,7 +104,7 @@ public class MySqlCategoryDao extends MySqlDaoBase implements CategoryDao
     public void update(int categoryId, Category category)
     {
         // update category
-        String sql = "UPDATE capstone.categories " +
+        String sql = "UPDATE categories " +
                         "SET name = ? ," +
                         "category_id = ? ," +
                         "description = ? " +
