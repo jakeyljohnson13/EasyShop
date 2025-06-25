@@ -59,7 +59,7 @@ Another side by side comparison
 
 3. **Bug Fixes**  
    -Filter functionality previously yielded incorrect results. Corrected in MySQLProductDao  
-   -Updating products previously created a new product with the update. Corrected in ProductsController
+   -Updating products as an admin previously caused users to see duplicate products. Corrected in ProductsController
 
 <div align="center">
 Bug 1 fix
@@ -72,3 +72,12 @@ Bug 2 fix
 </div>
 
 ![Capstone 3 Bug ProductController](https://github.com/user-attachments/assets/b1b63769-b2d0-4158-a8d2-bf7c9b8a5522)
+
+## Testing with Postman
+In order to verify this API was working as intended, I used Postman to test various functions. Below, you'll see an image containing which tests were conducted and the proper HTTPS code.
+
+<div align="center">
+Postman Testing
+</div>
+
+![Capstone 3 Postman All Pass](https://github.com/user-attachments/assets/7553dee3-663d-42e1-8ab6-eb27351d889f)
