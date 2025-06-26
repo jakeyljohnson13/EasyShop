@@ -23,14 +23,16 @@ import java.security.Principal;
 public class ShoppingCartController
 {
     // a shopping cart requires
-    @Autowired
     private ShoppingCartDao shoppingCartDao;
-    @Autowired
     private UserDao userDao;
-    @Autowired
     private ProductDao productDao;
 
-
+    @Autowired
+    public ShoppingCartController(ShoppingCartDao shoppingCartDao, UserDao userDao, ProductDao productDao) {
+        this.shoppingCartDao = shoppingCartDao;
+        this.userDao = userDao;
+        this.productDao = productDao;
+    }
 
     // each method in this controller requires a Principal object as a parameter
     @GetMapping
