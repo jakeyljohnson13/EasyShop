@@ -3,7 +3,7 @@
 ## Description
 
 This project is an e-commerce application that uses Spring Boot API for the backend and a MySQL database for storage. This RESTful API comes with a front end website with the endpoints needed
-to provide a smooth shopping experience with features like registering and logging in as a user, browse inventory based on specific criteria, and manage a shopping cart.
+to provide a smooth shopping experience with features like registering an account, logging in as a user, and browse inventory based on specific criteria.
 
 ## Front End Features
 
